@@ -1,0 +1,15 @@
+#+TITLE: DaiaPHP -- A DAIA data model implementation for PHP 5.3
+#+AUTHOR: David Maus
+#+EMAIL: maus@hab.de
+
+* About
+
+DaiaPHP is an implementation of the Document Availability Information API (DAIA) data model for PHP
+5.3. DAIA defines a data model with serializations in JSON and XML to encode information about the
+current availability of documents.
+
+DaiaPHP is copyright (c) 2012 by Herzog August Bibliothek Wolfenbüttel and released under the terms
+of the GNU General Public License v3.
+
+Note: This library is currently under development, the current API should be considered to of
+/alpha/ stability.
