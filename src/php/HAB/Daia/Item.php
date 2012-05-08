@@ -140,8 +140,7 @@ class Item extends Base\MessageNode
         if ($service) {
             $filter = function (\HAB\Daia\Availability $node) use ($service) { return $service === $node->getService(); };
         } else {
-            // @todo Factor out to helper library (\HAB\Helper::always(true))
-            $filter = function () { return true; };
+            $filter = \HAB\Helper::constantly(true);
         }
         return array_filter($nodes, $filter);
     }

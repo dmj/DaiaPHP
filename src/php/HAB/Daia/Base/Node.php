@@ -127,8 +127,7 @@ abstract class Node
         }
         foreach ($this->getNodes() as $name => $value) {
             if (is_array($value)) {
-                $data = array_filter(array_map(function (\HAB\Daia\Base\Node $node) { return $node->getJsonArray(); }, $value),
-                                     function (array $arr) { return !empty($arr); });
+                $data = array_filter(\HAB\Helper::mapMethod($value, 'getJsonArray'), function (array $arr) { return !empty($arr); });
             } else {
                 $data = $value->getJsonArray();
             }

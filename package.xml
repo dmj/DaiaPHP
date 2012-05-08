@@ -53,6 +53,12 @@ ${contents}
         <min>3.0.0</min>
         <max>3.999.9999</max>
       </package>
+      <package>
+        <name>Helper</name>
+        <channel>hab20.hab.de/service/pear</channel>
+        <min>0.1.0</min>
+        <max>0.999.9999</max>
+      </package>
     </required>
   </dependencies>
   <phprelease />
