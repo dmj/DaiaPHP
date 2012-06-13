@@ -99,6 +99,31 @@ abstract class Entity extends Node
     }
 
     /**
+     * Set entity content language.
+     *
+     * NOT part of the official DAIA 0.5 specification.
+     *
+     * @param  string $lang Language code
+     * @return void
+     */
+    public function setLang ($lang)
+    {
+        $this->setAttribute('lang');
+    }
+
+    /**
+     * Return entity language.
+     *
+     * NOT part of the official DAIA 0.5 specification.
+     *
+     * @return string Language code
+     */
+    public function getLang ()
+    {
+        return $this->getAttribute('lang');
+    }
+
+    /**
      * Return entity content.
      *
      * @return string Entity content
