@@ -37,6 +37,13 @@ class PicaRecordConverter
 {
 
     /**
+     * Map of copy records to DAIA items.
+     *
+     * @var \SplObjectStorage
+     */
+    protected $itemStorage;
+
+    /**
      * Constructor.
      *
      * @return void
@@ -53,6 +60,45 @@ class PicaRecordConverter
      */
     public function convert (\HAB\Pica\Record\LocalRecord $localRecord)
     {
+        $this->itemStorage = new \SplObjectStorage();
+        foreach ($localRecord->getCopyRecords() as $copyRecord) {
+            $this->itemStorage->attach($copyRecord, $this->createItems($copyRecord));
+        }
+        $this->addAvailability();
+        return $this->finalize();
     }
 
+    /**
+     * Return array of DAIA items for a copy record.
+     *
+     * @param  \HAB\Pica\Record\CopyRecord $copyRecord
+     * @return array
+     */
+    protected function createItems (\HAB\Pica\Record\CopyRecord $copyRecord)
+    {
+        return array(new \HAB\Daia\Item());
+    }
+
+    /**
+     * Add availability information.
+     *
+     * @return void
+     */
+    protected function addAvailability ()
+    {
+    }
+
+    /**
+     * Return final array of DAIA items.
+     *
+     * @return array
+     */
+    protected function finalize ()
+    {
+        $items = array();
+        foreach ($this->itemStorage as $copyRecordItems) {
+            $items = array_merge($items, $copyRecordItems);
+        }
+        return $items;
+    }
 }
