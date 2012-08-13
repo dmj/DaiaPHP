@@ -59,6 +59,12 @@ ${contents}
         <min>0.1.0</min>
         <max>0.999.9999</max>
       </package>
+      <package>
+        <name>PicaRecord</name>
+        <channel>hab20.hab.de/service/pear</channel>
+        <min>0.1.0</min>
+        <max>0.999.9999</max>
+      </package>
     </required>
   </dependencies>
   <phprelease />
