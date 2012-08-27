@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record xmlns="info:srw/schema/5/picaXML-v1.0">
+  <datafield tag="001A">
+    <subfield code="0">0018:03-07-12</subfield>
+  </datafield>
+  <datafield tag="001B">
+    <subfield code="0">0008:07-08-12</subfield>
+    <subfield code="t">11:54:35.000</subfield>
+  </datafield>
+  <datafield tag="001D">
+    <subfield code="0">0018:03-07-12</subfield>
+  </datafield>
+  <datafield tag="001F">
+    <subfield code="0">0</subfield>
+  </datafield>
+  <datafield tag="001U">
+    <subfield code="0">utf8</subfield>
+  </datafield>
+  <datafield tag="002@">
+    <subfield code="0">Afu</subfield>
+  </datafield>
+  <datafield tag="003@">
+    <subfield code="0">718691423</subfield>
+  </datafield>
+  <datafield tag="004A">
+    <subfield code="A">978-3-7772-1201-2</subfield>
+  </datafield>
+  <datafield tag="007G">
+    <subfield code="c">GBV</subfield>
+    <subfield code="0">718691423</subfield>
+  </datafield>
+  <datafield tag="010@">
+    <subfield code="a">ger</subfield>
+  </datafield>
+  <datafield tag="011@">
+    <subfield code="a">2012</subfield>
+  </datafield>
+  <datafield tag="019@">
+    <subfield code="a">XA-DE-BW</subfield>
+  </datafield>
+  <datafield tag="028A">
+    <subfield code="d">Frank G.</subfield>
+    <subfield code="a">Hirschmann</subfield>
+  </datafield>
+  <datafield tag="033A">
+    <subfield code="p">Stuttgart</subfield>
+    <subfield code="n">Hiersemann</subfield>
+  </datafield>
+  <datafield tag="034D">
+    <subfield code="a">VIII S., S. 1024 - 1612</subfield>
+  </datafield>
+  <datafield tag="034M">
+    <subfield code="a">Kt.</subfield>
+  </datafield>
+  <datafield tag="036C">
+    <subfield code="a">Die @Anfänge des Städtewesens in Mitteleuropa</subfield>
+    <subfield code="y">die Bischofssitze des Reiches bis ins 12. Jahrhundert</subfield>
+    <subfield code="c">von Frank G. Hirschmann</subfield>
+    <subfield code="l">Teilbd. 3</subfield>
+  </datafield>
+  <datafield tag="036D">
+    <subfield code="X">3.2012</subfield>
+    <subfield code="9">677777809</subfield>
+    <subfield code="a">Die @Anfänge des Städtewesens in Mitteleuropa</subfield>
+    <subfield code="d">die Bischofssitze des Reiches bis ins 12. Jahrhundert ; [in drei Teilbänden]</subfield>
+    <subfield code="a">Hirschmann</subfield>
+    <subfield code="d">Frank G.</subfield>
+    <subfield code="p">Stuttgart</subfield>
+    <subfield code="n">Hiersemann</subfield>
+    <subfield code="a">2011</subfield>
+    <subfield code="l">Teilbd. 3</subfield>
+    <subfield code="x">_13 2012</subfield>
+  </datafield>
+  <datafield tag="036E">
+    <subfield code="a">Monographien zur Geschichte des Mittelalters</subfield>
+    <subfield code="l">59</subfield>
+  </datafield>
+  <datafield tag="036F">
+    <subfield code="x">5902</subfield>
+    <subfield code="9">130109622</subfield>
+    <subfield code="a">Monographien zur Geschichte des Mittelalters</subfield>
+    <subfield code="p">Stuttgart</subfield>
+    <subfield code="n">Hiersemann</subfield>
+    <subfield code="n">1970-</subfield>
+    <subfield code="0">5036318</subfield>
+    <subfield code="l">59</subfield>
+  </datafield>
+  <datafield tag="037A">
+    <subfield code="a">Literaturangaben</subfield>
+  </datafield>
+  <datafield tag="046L">
+    <subfield code="a">Zsfassung in engl. Sprache</subfield>
+  </datafield>
+  <datafield tag="046X">
+    <subfield code="S">bema</subfield>
+    <subfield code="C">sf</subfield>
+  </datafield>
+  <datafield tag="101@">
+    <subfield code="a">50</subfield>
+  </datafield>
+  <datafield tag="201@" occurrence="01">
+    <subfield code="a">Verfuegbar|Verfuegbar</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="e">1310464219</subfield>
+    <subfield code="m">mon</subfield>
+    <subfield code="f">2</subfield>
+    <subfield code="l">http://opac.lbs-braunschweig.gbv.de:80/loan/REQ?EPN=1310464219&amp;MTR=mon&amp;BES=2</subfield>
+    <subfield code="u">Verfuegbar</subfield>
+    <subfield code="v">Verfuegbar</subfield>
+  </datafield>
+  <datafield tag="201B" occurrence="01">
+    <subfield code="0">14-08-12</subfield>
+    <subfield code="t">15:59:50.000</subfield>
+  </datafield>
+  <datafield tag="201D" occurrence="01">
+    <subfield code="0">14-08-12</subfield>
+    <subfield code="b">2047</subfield>
+    <subfield code="a">0023</subfield>
+  </datafield>
+  <datafield tag="201F" occurrence="01">
+    <subfield code="0">0</subfield>
+  </datafield>
+  <datafield tag="201U" occurrence="01">
+    <subfield code="0">utf8</subfield>
+  </datafield>
+  <datafield tag="203@" occurrence="01">
+    <subfield code="0">1310464219</subfield>
+  </datafield>
+  <datafield tag="208@" occurrence="01">
+    <subfield code="a">05-07-12</subfield>
+    <subfield code="b">k</subfield>
+  </datafield>
+  <datafield tag="209A" occurrence="01">
+    <subfield code="a">F8° 1999:59,3</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="x">00</subfield>
+  </datafield>
+  <datafield tag="209C" occurrence="01">
+    <subfield code="a">F8° 1999:59,3</subfield>
+    <subfield code="x">00</subfield>
+  </datafield>
+  <datafield tag="209G" occurrence="01">
+    <subfield code="a">23$12898163</subfield>
+  </datafield>
+</record>
