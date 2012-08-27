@@ -17,6 +17,7 @@
 define('APP_TOPDIR', realpath(__DIR__ . '/../../php'));
 define('APP_LIBDIR', realpath(__DIR__ . '/../../../vendor/php'));
 define('APP_TESTDIR', realpath(__DIR__ . '/php'));
+define('APP_DATADIR', realpath(__DIR__ . '/data'));
 
 // step 2: find the autoloader, and install it
 require_once(APP_LIBDIR . '/psr0.autoloader.php');
